@@ -44,6 +44,7 @@
     <meta name="og:type" content="website">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="minimal.css">
+    <link rel="stylesheet" href="baguette/baguetteBox.min.css">
     <style>
         .fa {
             padding: 20px;
@@ -96,6 +97,7 @@
         <p>All works are copywright by the creator. Please reach out on twitter for permission before distributing (link is at the bottom of the page).</p>
         <a href="https://fbalashov.com">Home</a>
         
+        <br />
         <h2>Attack on Titan: 2021</h2>
         <p>I have a friend that is in love with this Anime series. With the end of the last season approach I decided to paint him into the world of the Anime. This was done on a 10x8 canvas with inspiration from the first couple seasons of the Anime.</p>
         <div class="titanGallery gallery">
@@ -121,7 +123,7 @@
             </a>
         </div>
 
-
+        <br />
         <h2>The Lion and His Shadow: 2020</h2>
         <p>The Lion and His Shadow were a set of illustrations I made for a short story I wrote in 2019. It tells the story of a lion, his ego, and reputation. What I share here are just a sample of the illustrations.</p>
         <p>I challenged myself to paint all the pages of the book with watercolors in an effort to become more free with my work and enable me to finish this project quickly. While the first paintings I did consumed multiple days I found myself capable of finishing a painting in as little as two hours by the last few pages! It ended up taking me about two months to do all the paintings and was a fun experience.</p>
@@ -138,6 +140,7 @@
         </div>
 
 
+        <br />
         <h2>Anxiety: 2019-Current</h2>
         <p>In this project I tried to capture the feeling that anxiety gives me. The unhinged mouth shrieking a silent scream paired with the helpless wideeye look all call out to the viewer for help. The disected face, and scaled proportions of the disembodied parts creates a sense of dicomfort, representative of the state of mind.</p>
         <p>The painting has taken longer any of my previous projects. I had to redo parts of this painting to adjust for miss-measured proportions. This was also one of the first paitings I have done which consists of many layers (so far I am up to 3 and will probably have to do one or two more passes.</p>
@@ -169,6 +172,7 @@
         </div>
 
 
+        <br />
         <h2>Miscellaneous: 2019 - 2020</h2>
         <p>This is a collection of paintings and photography that I created/took in 2019-2020. Descriptions are provided with the photos.</p>
         <div class="misc2019Gallery gallery">
@@ -218,5 +222,15 @@
             <!--<a href="https://www.instagram.com/fuadbalashov/" class="fa fa-instagram"></a>-->
         </div>
     </div>
+    <!-- Lightbox -->
+    <script src="baguette/baguetteBox.min.js" async></script>
+    <script> 
+        document.addEventListener("DOMContentLoaded", () => {
+            baguetteBox.run('.titanGallery');
+            baguetteBox.run('.lionGallery');
+            baguetteBox.run('.anxietyGallery');
+            baguetteBox.run('.misc2019Gallery');
+        });
+    </script>
   </body>
 </html>
